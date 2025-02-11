@@ -28,125 +28,133 @@
       <span>3 ITEMS</span>
     </header>
     <main>
-      <div class="top-container">
-        <article class="product-card">
-          <div class="product-img-container">
-            <img src="./resources/Gold.png" alt="iPhone 12 Pro image" />
-          </div>
-          |
-          <div class="product-name-price">
-            <p class="name">iPhone 12 Pro</p>
-            <p class="price">$999.00</p>
-          </div>
-          <p class="color">Golden</p>
-          <div class="card-bottom-container">
-            <p class="quantity">x 1</p>
-            <button class="remove-product-btn">X</button>
-          </div>
-        </article>
-        <article class="product-card">
-          <div class="product-img-container">
-            <img src="./resources/Apple-watch.png" alt="Apple Watch image" />
-          </div>
-          |
-          <div class="product-name-price">
-            <p class="name">Apple Watch</p>
-            <p class="price">$399.00</p>
-          </div>
-          <p class="color">Blue</p>
-          <div class="card-bottom-container">
-            <p class="quantity">x 1</p>
-            <button class="remove-product-btn">X</button>
-          </div>
-        </article>
-        <article class="product-card">
-          <div class="product-img-container">
-            <img src="./resources/iMac.png" alt="iMac image" />
-          </div>
-          |
-          <div class="product-name-price">
-            <p class="name">iMac</p>
-            <p class="price">$1199.00</p>
-          </div>
-          <p class="color">Green</p>
-          <div class="card-bottom-container">
-            <p class="quantity">x 1</p>
-            <button class="remove-product-btn">X</button>
-          </div>
-        </article>
-        <div class="purchase-details">
-          <div class="enter-coupon-container">
-            <input
-              type="text"
-              name="coupon"
-              id="coupon"
-              placeholder="Enter coupon code"
-            />
-            <button id="apply-coupon-btn">Apply Coupon</button>
-          </div>
-          <div class="amount-container">
-            <div>
-              <p class="subtotal">Sub total</p>
-              <p class="sub-total-amount">$2597.00</p>
+      <div class="wrapper">
+        <div class="top-container">
+          <article class="product-card">
+            <div class="product-img-container">
+              <img src="./resources/Gold.png" alt="iPhone 12 Pro image" />
             </div>
-            <div>
-              <p class="tax">Tax</p>
-              <p class="tax-amount">$623.28</p>
+
+            <div class="product-details">
+              <div class="product-name-price">
+                <p class="name">iPhone 12 Pro</p>
+                <p class="price">$999.00</p>
+              </div>
+              <p class="color">Golden</p>
+              <div class="card-bottom-container">
+                <p class="quantity">x 1</p>
+                <button class="remove-product-btn">X</button>
+              </div>
             </div>
-            <div>
-              <p class="total">Total</p>
-              <p class="total-amount">$3220.28</p>
+          </article>
+          <article class="product-card">
+            <div class="product-img-container">
+              <img src="./resources/Apple-watch.png" alt="Apple Watch image" />
+            </div>
+
+            <div class="product-details">
+              <div class="product-name-price">
+                <p class="name">Apple Watch</p>
+                <p class="price">$399.00</p>
+              </div>
+              <p class="color">Blue</p>
+              <div class="card-bottom-container">
+                <p class="quantity">x 1</p>
+                <button class="remove-product-btn">X</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img-container">
+              <img src="./resources/iMac.png" alt="iMac image" />
+            </div>
+
+            <div class="product-details">
+              <div class="product-name-price">
+                <p class="name">iMac</p>
+                <p class="price">$1199.00</p>
+              </div>
+              <p class="color">Green</p>
+              <div class="card-bottom-container">
+                <p class="quantity">x 1</p>
+                <button class="remove-product-btn">X</button>
+              </div>
+            </div>
+          </article>
+          <div class="purchase-details">
+            <div class="enter-coupon-container">
+              <input
+                type="text"
+                name="coupon"
+                id="coupon"
+                placeholder="Enter coupon code"
+              />
+              <button id="apply-coupon-btn">Apply Coupon</button>
+            </div>
+            <div class="amount-container">
+              <div>
+                <p class="subtotal">Sub total</p>
+                <p class="sub-total-amount">$2597.00</p>
+              </div>
+              <div>
+                <p class="tax">Tax</p>
+                <p class="tax-amount">$623.28</p>
+              </div>
+              <div>
+                <p class="total">Total</p>
+                <p class="total-amount">$3220.28</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bottom-container">
-        <form action="">
-          <fieldset>
-            <legend>Contact Information</legend>
-            <div class="input-container">
-              <label for="name">First & Last name</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Enter first & last name"
-                required
-              />
-            </div>
-            <div class="input-container">
-              <label for="email">Email Address</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter email address"
-                required
-              />
-            </div>
-            <div class="group-input-container">
+        <div class="bottom-container">
+          <form action="">
+            <fieldset>
+              <legend>Contact Information</legend>
               <div class="input-container">
-                <label for="country">Country</label>
-                <select name="country" id="country">
-                  <option value="Finland">Finland</option>
-                  <option value="Canada">Canada</option>
-                  <option value="Venezuela">Venezuela</option>
-                </select>
-              </div>
-              <div class="input-container">
-                <label for="postal-code">Postal Code</label>
+                <label for="name">First & Last name</label>
                 <input
                   type="text"
-                  name="postal-code"
-                  id="postal-code"
-                  placeholder="00270"
+                  name="name"
+                  id="name"
+                  placeholder="Enter first & last name"
                   required
                 />
               </div>
-            </div>
-            <button class="continue-btn">Continue</button>
-          </fieldset>
-        </form>
+              <div class="input-container">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter email address"
+                  required
+                />
+              </div>
+              <div class="group-input-container">
+                <div class="input-container">
+                  <label for="country">Country</label>
+                  <select name="country" id="country">
+                    <option value="Finland">Finland</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Venezuela">Venezuela</option>
+                  </select>
+                </div>
+                <div class="input-container">
+                  <label for="postal-code">Postal Code</label>
+                  <input
+                    type="text"
+                    name="postal-code"
+                    id="postal-code"
+                    placeholder="00270"
+                    required
+                  />
+                </div>
+              </div>
+              <button class="continue-btn">Continue</button>
+            </fieldset>
+          </form>
+        </div>
       </div>
     </main>
   </body>
