@@ -268,7 +268,7 @@ main {
 }
 
 .enter-coupon-container button:hover {
-  background-color: #1a1a1c;
+  background-color: #525252;
 }
 
 .amount-container {
@@ -373,7 +373,7 @@ legend {
 }
 
 .continue-btn:hover {
-  background-color: #1a1a1c;
+  background-color: #525252;
 }
 
 @media (min-width: 64rem) {
