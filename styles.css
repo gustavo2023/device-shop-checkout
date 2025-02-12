@@ -266,6 +266,10 @@ main {
   white-space: nowrap;
 }
 
+.enter-coupon-container button:hover {
+  background-color: #1a1a1c;
+}
+
 .amount-container {
   display: flex;
   flex-direction: column;
@@ -365,6 +369,10 @@ legend {
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+}
+
+.continue-btn:hover {
+  background-color: #1a1a1c;
 }
 
 @media (min-width: 64rem) {
