@@ -162,22 +162,22 @@ main {
 
 .top-container {
   background-color: var(--container-one-color);
-  padding: 1.5rem 1.5rem 0 1.5rem;
+  padding: 1.5rem 1.5rem 0 1.2rem;
   display: flex;
   flex-direction: column;
 }
 
 .product-card {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .product-img-container {
   background-color: var(--body-bg-color);
   border-radius: 0.5rem;
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   padding: 0.5rem;
   display: flex;
   justify-content: center;
@@ -192,7 +192,7 @@ main {
 
 .product-details {
   width: 100%;
-  font-size: var(--size-two);
+  font-size: clamp(0.9rem, 1vw, var(--size-two));
   color: var(--text-color);
   display: flex;
   flex-direction: column;
@@ -235,6 +235,7 @@ main {
 
 .enter-coupon-container {
   display: flex;
+  flex-direction: column;
   gap: 0.5rem;
   width: 100%;
 }
@@ -318,7 +319,7 @@ legend {
 
 .label-text {
   font-weight: var(--medium-weight);
-  font-size: var(--size-two);
+  font-size: clamp(0.9rem, 1vw, var(--size-two));
 }
 
 .input-container input {
